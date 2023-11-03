@@ -2,13 +2,9 @@
 A 3-layer encryption made in js, to encrypt and decrypt messages with a private key
 
 
-    
-<div align="center">
-   <img src="https://github.com/Daniel-Alvarenga/Encryptor/assets/128755697/0bb4f0f6-a7c6-435e-aa1b-a8fb682c6583"/>
-</div>
+<img src="https://github.com/Daniel-Alvarenga/Encryptor/assets/128755697/0bb4f0f6-a7c6-435e-aa1b-a8fb682c6583"/>
 
-
-    
+          
 Este é um projeto de criptografia simples que permite criptografar e descriptografar texto usando uma chave personalizada. Ele inclui uma página HTML, um arquivo CSS e scripts JavaScript para a funcionalidade.
 A criptografia funciona em 3 camadas diferentes, que consistem em um cálculo com o binário da chave "privada inserida", um shift da entrada em um vetor com caracteres russos chineses e alfanuméricos, e por fim um binário desses caracteres.
 Esse sistema não funciona caso a chave privada inserida seja uma palavra, sem nenhum número. Para garantir o funcionamento e a segurança de sua mensagem mesmo com a cheve privada, garanta que ela inclua ao menos um número.
@@ -42,6 +38,10 @@ Encryptor
 O arquivo HTML (`index.html`) contém a marcação da página com elementos identificados com id para comunicação com js e classes para estilização
 O arqwuivo de CSS (`style.css`) para estilização. Você pode personalizar os estilos de acordo com suas preferências. 
 Já na pasta script, o arquivo principal, (`script.js`) contém o script para execução de criptografia ou sua reversão mediante uma mensagem e uma chave, e o arquivo `overshadowed.js` é um script JavaScript que a executa a mesma função de script.js na pasta de scripts, mas ele está ofuscado
+
+
+https://github.com/Daniel-Alvarenga/Encryptor/assets/128755697/faa06326-c319-4e41-aced-ebd2e1c45733
+
 
 ## Uso
 
