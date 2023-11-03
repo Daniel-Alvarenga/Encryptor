@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: transparent;
+    letter-spacing: 1px;
+    color: var(--c2);
+    font-family: 'Ubunto';
+    letter-spacing: 1px;
+    text-shadow: 0 0 15px var(--c2);
+}
+
+@font-face {
+    font-family: 'Ubunto';
+    src: url('font.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --c1: rgb(0, 0, 0);
+    --c2: rgb(0, 255, 0);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--c1);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fil {
+    border-radius: 5px;
+    border: solid 1px var(--c2);
+}
+
+legend {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.txt {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    resize: vertical;
+    max-height: 50vh;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    min-height: 35px;
+}
+
+.a,
+.b {
+    margin-top: 5px;
+    position: relative;
+    top: 0px;
+    margin: 10px;
+    width: 40vw;
+    height: 70vh;
+}
+
+.ch {
+    display: flex;
+    margin-top: 10px;
+}
+
+.inp {
+    text-indent: 10px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    border: solid 1px var(--c2);
+    width: calc(40vw - 100px);
+    height: 30px;
+    border-right: none;
+    text-decoration: none;
+    color: var(--c2);
+}
+
+.but {
+    width: 100px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    height: 30px;
+    background-color: var(--c2);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        flex-direction: column;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .a,
+    .b {
+        width: 80vw;
+        height: 100vh;
+    }
+    .inp {
+        width: calc(80vw - 100px);
+    }
+}
