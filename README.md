@@ -1,5 +1,5 @@
 # Encryptor
-A 3-layer encryption made in js, to encrypt and decrypt messages with a private key
+A 3-layer encryption made in js, html and css, to encrypt and decrypt messages with a private key
 
 
 <img src="https://github.com/Daniel-Alvarenga/Encryptor/assets/128755697/0bb4f0f6-a7c6-435e-aa1b-a8fb682c6583"/>
